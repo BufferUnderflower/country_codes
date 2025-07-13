@@ -5,3 +5,7 @@
 .pub/
 
 build/
+
+macos/country_codes/.swiftpm/
+macos/country_codes/Package.resolved
+macos/country_codes/Package.swift
