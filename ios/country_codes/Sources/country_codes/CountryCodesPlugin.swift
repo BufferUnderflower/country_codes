@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftCountryCodesPlugin: NSObject, FlutterPlugin {
+public class CountryCodesPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
     let channel = FlutterMethodChannel(name: "country_codes", binaryMessenger: registrar.messenger())
-    let instance = SwiftCountryCodesPlugin()
+    let instance = CountryCodesPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
